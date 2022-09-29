@@ -1,9 +1,9 @@
 class Employee:
 
-    def __init__(self, name, ID, department, job_title, salary):
+    def __init__(self, name, ID, dep, job_title, salary):
         self.__name= name
         self.__ID= ID
-        self.__department= department
+        self.__dep= dep
         self.__job_title= job_title
         self.__salary= salary
     
@@ -14,7 +14,7 @@ class Employee:
         return self.__ID
     
     def getDepartment(self):
-        return self.__department
+        return self.__dep
     
     def getJobTitle(self):
         return self.__job_title
